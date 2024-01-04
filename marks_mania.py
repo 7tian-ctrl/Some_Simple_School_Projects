@@ -23,21 +23,21 @@ print(f'\nCongrats ╰(*°▽°*)╯\n  You have scored {percentage}%')
 if 60<=percentage<=100:
    print('\nHooray ヾ(≧▽≦*)o\n  You are in the I Division.')
    if dict_marks['Maths']>=75 and dict_marks['Science']>=75:
-      print('\nYou are Eligible for Maths and Science Stream')
+      print('\nYou are Eligible for Maths and Science Stream.')
    else:
-      print('\nSorry (ノへ￣、)\n You are not Eligible for Science stream')
+      print('\nSorry (ノへ￣、)\n You are not Eligible for Science stream.')
 elif 45<=percentage<=59:
    print('\nHooray ヾ(≧▽≦*)o\n  You are in the II Division.')
    if dict_marks['Maths']>=75 and dict_marks['Science']>=75:
-      print('\nYou are Eligible for Maths and Science Stream')
+      print('\nYou are Eligible for Maths and Science Stream.')
    else:
-      print('\nSorry (ノへ￣、)\n You are not Eligible for Science stream')
+      print('\nSorry (ノへ￣、)\n You are not Eligible for Science stream.')
 elif 33<=percentage<=44:
    print('\nHooray ヾ(≧▽≦*)o\n  You are in the III Division.')
    if dict_marks['Maths']>=75 and dict_marks['Science']>=75:
-      print('\nYou are Eligible for Maths and Science Stream')
+      print('\nYou are Eligible for Maths and Science Stream.')
    else:
-      print('\nSorry (ノへ￣、)\n You are not Eligible for Science stream')
+      print('\nSorry (ノへ￣、)\n You are not Eligible for Science stream.')
 else:
-   print("\nSorry (┬┬﹏┬┬)\n  You didn't make it")
+   print("\nSorry (┬┬﹏┬┬)\n  You didn't make it.")
    
