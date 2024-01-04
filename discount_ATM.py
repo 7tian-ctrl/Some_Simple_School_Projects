@@ -2,7 +2,7 @@
 #les go
 
 pin=int(input('Please enter a pin: '))
-current_balance=0
+current_balance=0.00
 
 print('Menu')
 print('1. Check Balance')
@@ -24,7 +24,7 @@ while 1>0:
     elif choice==2:
         lock=int(input('\n  Please enter your pin: '))
         if lock==pin:
-            withdraw_amount=int(input('Enter the amount you want to withdraw: '))
+            withdraw_amount=float(input('Enter the amount you want to withdraw: '))
             if withdraw_amount<=current_balance:
                 print(f"\nHere's your money ヾ(≧▽≦*)o \nYou have currently {current_balance-withdraw_amount} left in your account.")
             else:
@@ -36,7 +36,7 @@ while 1>0:
     elif choice==3:
         lock=int(input('\n  Please enter your pin: '))
         if lock==pin:
-            deposit_amount=int(input('Enter the amount you want to deposit: '))
+            deposit_amount=float(input('Enter the amount you want to deposit: '))
             print(f'\nCongrats ☆*: .｡. o(≧▽≦)o .｡.:*☆\nYou have successfully deposited your money.\nYou have currently {current_balance+deposit_amount} in your account.')
             current_balance= current_balance + deposit_amount
         else:
