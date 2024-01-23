@@ -34,7 +34,7 @@ def perimeter_and_area():
     sorted(sides_list)
     area = (sides_list[0]*sides_list[1])/2
     perimeter = sum(sides_list)
-    print(f'\nPerimeter= {perimeter}\nArea= {area}')
+    print(f'\nPerimeter= {perimeter} unit\nArea= {area} unit squared')
     return()
 
 perimeter_and_area()
